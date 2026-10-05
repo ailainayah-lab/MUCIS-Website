@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MUCIS | Snack Manis & Gurih</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <div class="logo">
+            MUCIS<span>.</span>
+        </div>
+
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#produk">Produk</a>
+            <a href="#tentang">Tentang MUCIS</a>
+            <a href="#keunggulan">Keunggulan</a>
+            <a href="#kontak">Kontak</a>
+            <a href="#produk" class="nav-order">Pesan Sekarang</a>
+        </nav>
+
+        <button class="theme-toggle" id="themeToggle">
+            🌙
+        </button>
+
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <span class="badge">
+                ✨ Snack Kekinian
+            </span>
+
+            <h1>
+                Manis + Gurih,
+                <span>Jadi Satu!</span>
+            </h1>
+
+            <p>
+                Teman belajar dan nongkrong yang bikin nagih.
+                Nikmati Cheesecuit dan Jasuke dengan rasa
+                lezat dan topping favoritmu.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#produk" class="btn primary">
+                    Lihat Menu
+                </a>
+
+                <button
+                    class="btn secondary"
+                    data-open-order
+                    data-product-choice="Cheesecuit">
+                    Pesan Sekarang
+                </button>
+
+            </div>
+
+            <div class="mini-stats">
+
+                <div>
+                    <strong>2</strong>
+                    <span>Menu Utama</span>
+                </div>
+
+                <div>
+                    <strong>3+</strong>
+                    <span>Varian Topping</span>
+                </div>
+
+                <div>
+                    <strong>Fresh</strong>
+                    <span>Setiap Hari</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- HERO VISUAL -->
+        <div class="hero-visual">
+
+            <div class="hero-circle"></div>
+
+            <div class="hero-product">
+
+                <div class="hero-emoji">
+                    🧀
+                </div>
+
+                <h3>
+                    MUCIS
+                </h3>
+
+                <p>
+                    Sweet & Savory
+                </p>
+
+            </div>
+
+            <span class="floating floating-one">
+                🍪
+            </span>
+
+            <span class="floating floating-two">
+                🌽
+            </span>
+
+            <span class="floating floating-three">
+                ✨
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUK -->
+    <section class="section" id="produk">
+
+        <div class="section-title">
+
+            <p class="eyebrow">
+                MENU MUCIS
+            </p>
+
+            <h2>
+                Snack Favorit Kamu
+            </h2>
+
+            <p>
+                Pilih varian Cheesecuit atau Jasuke favoritmu!
+            </p>
+
+        </div>
+
+
+        <div class="product-grid">
+
+
+            <!-- CHEESECUIT OREO -->
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <img
+                        src="cheesecuit-oreo.jpeg"
+                        alt="Cheesecuit Oreo">
+
+                </div>
+
+                <div class="product-content">
+
+                    <span class="product-label">
+                        CHEESECUIT
+                    </span>
+
+                    <h3>
+                        Cheesecuit Oreo
+                    </h3>
+
+                    <p>
+                        Cheesecuit creamy dengan topping
+                        Oreo yang renyah.
+                    </p>
+
+                    <div class="price">
+                        Rp15.000
+                    </div>
+
+                    <button
+                        class="btn primary"
+                        data-open-order
+                        data-product-choice="Cheesecuit">
+
+                        Pesan Sekarang
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- CHEESECUIT MILO -->
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <img
+                        src="cheesecuit-milo.jpeg"
+                        alt="Cheesecuit Milo">
+
+                </div>
+
+                <div class="product-content">
+
+                    <span class="product-label">
+                        CHEESECUIT
+                    </span>
+
+                    <h3>
+                        Cheesecuit Milo
+                    </h3>
+
+                    <p>
+                        Cheesecuit lembut dengan taburan
+                        Milo yang nikmat.
+                    </p>
+
+                    <div class="price">
+                        Rp15.000
+                    </div>
+
+                    <button
+                        class="btn primary"
+                        data-open-order
+                        data-product-choice="Cheesecuit">
+
+                        Pesan Sekarang
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- CHEESECUIT COKLAT -->
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <img
+                        src="cheesecuit-coklat.jpeg"
+                        alt="Cheesecuit Coklat">
+
+                </div>
+
+                <div class="product-content">
+
+                    <span class="product-label">
+                        CHEESECUIT
+                    </span>
+
+                    <h3>
+                        Cheesecuit Coklat
+                    </h3>
+
+                    <p>
+                        Perpaduan cheesecuit creamy
+                        dengan rasa coklat.
+                    </p>
+
+                    <div class="price">
+                        Rp15.000
+                    </div>
+
+                    <button
+                        class="btn primary"
+                        data-open-order
+                        data-product-choice="Cheesecuit">
+
+                        Pesan Sekarang
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- JASUKE -->
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <img
+                        src="jasuke.jpeg"
+                        alt="Jasuke Keju">
+
+                </div>
+
+                <div class="product-content">
+
+                    <span class="product-label">
+                        JASUKE
+                    </span>
+
+                    <h3>
+                        Jasuke Keju
+                    </h3>
+
+                    <p>
+                        Jagung manis dengan susu dan
+                        taburan keju yang gurih.
+                    </p>
+
+                    <div class="price">
+                        Rp10.000
+                    </div>
+
+                    <button
+                        class="btn primary"
+                        data-open-order
+                        data-product-choice="Jasuke">
+
+                        Pesan Sekarang
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- COMBO -->
+    <section class="combo-section">
+
+        <div class="combo-content">
+
+            <span class="badge">
+                ⭐ FAVORIT
+            </span>
+
+            <h2>
+                Combo MUCIS
+            </h2>
+
+            <p>
+                Cheesecuit + Jasuke dalam satu paket.
+                Cocok untuk teman belajar atau nongkrong.
+            </p>
+
+            <div class="combo-price">
+                Rp20.000
+            </div>
+
+            <div class="quantity-box">
+
+                <button id="qtyMinus">
+                    −
+                </button>
+
+                <span id="comboQty">
+                    1
+                </span>
+
+                <button id="qtyPlus">
+                    +
+                </button>
+
+            </div>
+
+            <p id="comboTotal">
+                Total: Rp20.000
+            </p>
+
+            <button
+                class="btn primary"
+                id="comboBtn">
+
+                Pesan Combo
+
+            </button>
+
+        </div>
+
+        <div class="combo-visual">
+            🧀 + 🌽
+        </div>
+
+    </section>
+
+
+    <!-- KEUNGGULAN -->
+    <section class="section" id="keunggulan">
+
+        <div class="section-title">
+
+            <p class="eyebrow">
+                KENAPA MUCIS?
+            </p>
+
+            <h2>
+                Kelebihan MUCIS
+            </h2>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🍰
+                </div>
+
+                <h3>
+                    Rasa Lezat
+                </h3>
+
+                <p>
+                    Perpaduan rasa manis dan gurih
+                    yang cocok untuk berbagai selera.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🧀
+                </div>
+
+                <h3>
+                    Banyak Varian
+                </h3>
+
+                <p>
+                    Tersedia berbagai pilihan topping
+                    seperti Oreo, Milo, dan Coklat.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    📸
+                </div>
+
+                <h3>
+                    Instagramable
+                </h3>
+
+                <p>
+                    Tampilan produk menarik dan cocok
+                    untuk menemani waktu santai.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    💰
+                </div>
+
+                <h3>
+                    Harga Terjangkau
+                </h3>
+
+                <p>
+                    Cocok untuk pelajar, mahasiswa,
+                    dan masyarakat sekitar.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TENTANG MUCIS -->
+    <section class="about-section" id="tentang">
+
+        <div class="about-text">
+
+            <p class="eyebrow">
+                TENTANG MUCIS
+            </p>
+
+            <h2>
+                Camilan Simple,
+                Rasa Maksimal.
+            </h2>
+
+            <p>
+                MUCIS merupakan UMKM yang menyediakan
+                camilan kekinian berupa Cheesecuit dan
+                Jasuke dengan berbagai pilihan topping.
+            </p>
+
+            <p>
+                MUCIS hadir sebagai pilihan camilan yang
+                cocok untuk menemani belajar, nongkrong,
+                maupun waktu santai.
+            </p>
+
+        </div>
+
+
+        <div class="target-box">
+
+            <h3>
+                Cocok Untuk
+            </h3>
+
+            <ul>
+
+                <li>
+                    🎓 Pelajar dan mahasiswa
+                </li>
+
+                <li>
+                    👨‍👩‍👧 Masyarakat sekitar
+                </li>
+
+                <li>
+                    🍪 Pecinta camilan manis
+                </li>
+
+                <li>
+                    🧀 Pecinta camilan gurih
+                </li>
+
+                <li>
+                    ☕ Teman belajar dan nongkrong
+                </li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+
+    <!-- KONTAK -->
+    <section class="section contact-section" id="kontak">
+
+        <div class="section-title">
+
+            <p class="eyebrow">
+                HUBUNGI MUCIS
+            </p>
+
+            <h2>
+                Mau Pesan?
+            </h2>
+
+            <p>
+                Hubungi MUCIS melalui kontak berikut.
+            </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+
+            <!-- WHATSAPP -->
+            <a
+                href="https://wa.me/6282152795028"
+                target="_blank"
+                class="contact-card">
+
+                <div class="contact-icon">
+                    📱
+                </div>
+
+                <div>
+
+                    <h3>
+                        WhatsApp
+                    </h3>
+
+                    <p>
+                        +62 821-5279-5028
+                    </p>
+
+                </div>
+
+            </a>
+
+
+            <!-- INSTAGRAM -->
+            <a
+                href="https://instagram.com/mfthtul_salwh"
+                target="_blank"
+                class="contact-card">
+
+                <div class="contact-icon">
+                    📸
+                </div>
+
+                <div>
+
+                    <h3>
+                        Instagram
+                    </h3>
+
+                    <p>
+                        @mfthtul_salwh
+                    </p>
+
+                </div>
+
+            </a>
+
+
+            <!-- LOKASI -->
+            <div class="contact-card">
+
+                <div class="contact-icon">
+                    📍
+                </div>
+
+                <div>
+
+                    <h3>
+                        Lokasi
+                    </h3>
+
+                    <p>
+                        Kantin Kampus ITBK
+                        (Kalla Institute), Makassar
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MODAL PESAN -->
+    <div class="modal" id="orderModal">
+
+        <div class="modal-content">
+
+            <button
+                class="close-modal"
+                id="closeModal">
+                ×
+            </button>
+
+            <h2>
+                Pesan MUCIS
+            </h2>
+
+            <p>
+                Isi data pesanan kamu.
+            </p>
+
+
+            <form id="orderForm">
+
+                <!-- NAMA -->
+                <label>
+                    Nama
+                </label>
+
+                <input
+                    type="text"
+                    id="customerName"
+                    placeholder="Masukkan nama"
+                    required>
+
+
+                <!-- PRODUK -->
+                <label>
+                    Produk
+                </label>
+
+                <select id="productSelect">
+
+                    <option value="Cheesecuit">
+                        Cheesecuit - Rp12.000
+                    </option>
+
+                    <option value="Jasuke">
+                        Jasuke - Rp10.000
+                    </option>
+
+                    <option value="Combo">
+                        Combo - Rp20.000
+                    </option>
+
+                </select>
+
+
+                <!-- TOPPING -->
+                <label>
+                    Topping Cheesecuit
+                </label>
+
+                <select id="toppingSelect">
+
+                    <option
+                        value="Original"
+                        data-extra="0">
+
+                        Original - Rp12.000
+
+                    </option>
+
+                    <option
+                        value="Oreo"
+                        data-extra="3000">
+
+                        Oreo - Rp15.000
+
+                    </option>
+
+                    <option
+                        value="Milo"
+                        data-extra="3000">
+
+                        Milo - Rp15.000
+
+                    </option>
+
+                    <option
+                        value="Coklat"
+                        data-extra="3000">
+
+                        Coklat - Rp15.000
+
+                    </option>
+
+                </select>
+
+
+                <!-- JUMLAH -->
+                <label>
+                    Jumlah
+                </label>
+
+                <div class="modal-quantity">
+
+                    <button
+                        type="button"
+                        id="modalMinus">
+
+                        −
+
+                    </button>
+
+                    <input
+                        type="number"
+                        id="quantity"
+                        value="1"
+                        min="1"
+                        readonly>
+
+                    <button
+                        type="button"
+                        id="modalPlus">
+
+                        +
+
+                    </button>
+
+                </div>
+
+
+                <!-- TOTAL -->
+                <div class="order-total">
+
+                    <span>
+                        Total
+                    </span>
+
+                    <strong id="orderTotal">
+                        Rp12.000
+                    </strong>
+
+                </div>
+
+
+                <!-- TOMBOL -->
+                <button
+                    type="submit"
+                    class="btn primary full">
+
+                    Buat Pesanan
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- NOTIFIKASI -->
+    <div class="toast" id="toast">
+        Pesanan berhasil!
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-logo">
+            MUCIS<span>.</span>
+        </div>
+
+        <p>
+            Manis + Gurih, Jadi Satu!
+        </p>
+
+        <small>
+            © 2026 MUCIS. UTS Pemrograman Web.
+        </small>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
